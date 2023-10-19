@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.heading{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.logo img{
+    width: 10rem;
+}
+
+.cart-btn img{
+    width: 2rem;
+}
+
+.cart-btn{
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    background-image: url(./assets/kw-background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    padding: 80px;
+}
+
+.hero h1{
+    font-size: 4.5rem;
+    color: white;
+    margin-top: 5px;
+}
+
+.hero h3{
+    margin-top: 30px;
+    color: white;
+}
+
+.main-container{
+    padding: 80px;
+}
+
+.new-books{
+    margin-bottom: 200px;
+}
+.products-book{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 30px;
+}
+
+/* Selecting all subsection to fit content in divs */
+.book1,.book2,.book3,.book4,.book5,.book6,.game1,.game2,.game3,.game4,.handmade1,.handmade2,.handmade3,.handmade4{
+    width: fit-content;
+}
+.book-image{
+    width: 170px;
+    height: 250px;
+}
+
+h6{
+    margin: 10px 0;
+    color: #959595;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+.price-add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    background-color: #6196FF;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 3px;
+    width: 4rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button img{
+    padding-left: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.new-games{
+    margin-bottom: 200px;
+}
+
+.products-game{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 80px;
+}
+
+.game-image{
+    width: 260px;
+    height: 250px;
+}
+
+
+.handmade{
+    margin-bottom: 200px;
+}
+
+.products-handmade{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 80px;
+}
+
+.handmade-image{
+    width: 260px;
+    height: 250px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0 80px;
+}
+
+#space{
+    font-family:'Times New Roman', Times, serif;
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+#myphoto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.credit-text{
+    text-align: right;
+}
